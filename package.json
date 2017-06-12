@@ -1,0 +1,11 @@
+{
+  "name": "npm-rollup-boilerplate",
+  "private": true,
+  "main": "./dist/npm-rollup-boilerplate.js",
+  "module": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ofk",
+  "license": "MIT"
+}
