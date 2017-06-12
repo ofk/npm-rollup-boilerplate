@@ -6,6 +6,7 @@
   "scripts": {
     "start": "rollup -c -w -m inline",
     "build": "rollup -c",
+    "release": "eslint src && rollup -c && uglifyjs -c -m --verbose --output dist/npm-rollup-boilerplate.min.js dist/npm-rollup-boilerplate.js",
     "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
