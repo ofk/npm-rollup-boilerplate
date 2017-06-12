@@ -6,6 +6,7 @@
   "scripts": {
     "start": "rollup -c -w -m inline",
     "build": "rollup -c",
+    "lint": "eslint src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ofk",
